@@ -1,0 +1,19 @@
+{
+  "name": "asynclandingmagy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vale-78/MagyCantaAsyncLanding.git"
+  },
+  "author": "Valeria Foglino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vale-78/MagyCantaAsyncLanding/issues"
+  },
+  "homepage": "https://github.com/Vale-78/MagyCantaAsyncLanding#readme"
+}
