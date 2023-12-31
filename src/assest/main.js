@@ -1,4 +1,4 @@
-const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UChUREDTxIhF5mOpLFCPRUNw&part=snippet%2Cid&order=date&maxResults=50';
+const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UChUREDTxIhF5mOpLFCPRUNw&part=snippet%2Cid&order=date&maxResults=12';
 const content = null || document.getElementById('content')
 
 const options = {
@@ -33,7 +33,7 @@ try {
             </h4>
           </div>
         </div>
-  `).slice(0,12).join('')}
+  `).reverse().slice(0,13).join('')}
   
   `;
   content.innerHTML = view
