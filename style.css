@@ -11,6 +11,7 @@
     height: 16%;
     width: 16%;
     border-radius: 50%;
+    margin-top: 3%;
 }
 #videosContainer{
     background-color:#88ae86;
@@ -18,9 +19,78 @@
 #contacto{
     background-color: black;
 }
-
-@media (min-width: 640px){
-.sm\:h-10 {
-    padding-top: 2%;
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
 }
+
+footer img {
+    height: 30%;
+    width: 30%;
+}
+
+footer .accesos a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+footer .accesos button{
+    background-color: #88ae86;
+    padding: 4%;
+    border-radius: 28%;
+    margin: 2%;
+ }
+ 
+ footer .botones{
+     min-width: 30rem;
+     display: flex;
+     flex-wrap: wrap;
+     flex-flow: row wrap;
+ }
+ 
+ footer .botones a {
+     text-decoration: none;
+     font-size: 30px;
+     width: 60px;
+     height: 60px;
+     left: 50px;
+     right: 50px;
+     line-height: 50px;
+     margin: 20px;
+     text-align: center;
+     background: var(--gris);
+     color: var(--blanco);
+     border-radius: 50%;
+     box-shadow: 2px 2px 5px var(--blanco);
+     transition: all .4s ease-in-out;
+ }
+ footer .accesos button{
+    background-color: #88ae86;
+    padding: 4%;
+    border-radius: 28%;
+    margin: 2%;
+ }
+ footer .botones a:hover {
+     transform: scale(1.2);
+ }
+ 
+ footer .barra{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-wrap: wrap;
+ }
+@media (min-width: 640px){
+    .sm\:h-10 {
+        padding-top: 2%;
+    }
+}
+@media (max-width: 435px){
+   footer .botones {
+    min-width: 10rem;  
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
