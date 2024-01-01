@@ -1,0 +1,26 @@
+
+#inicio{
+    text-align: center;
+}
+#inicioContainer{
+    box-sizing: border-box;
+    background-color:#88ae86;
+}
+
+#inicioContainer img {
+    height: 16%;
+    width: 16%;
+    border-radius: 50%;
+}
+#videosContainer{
+    background-color:#88ae86;
+}
+#contacto{
+    background-color: black;
+}
+
+@media (min-width: 640px){
+.sm\:h-10 {
+    padding-top: 2%;
+}
+}
